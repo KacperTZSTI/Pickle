@@ -11,7 +11,5 @@ class User(): #OCP - user otwarty na rozszerzenie ale zamknięty na modyfikacje
         self.age = age
 
     def info(self):
-        print(f"my name is {self.name}")
-        print(f"my surname is {self.surname}")
-        print(f"my age is {self.age}")
+        return(f"my name is {self.name} my surname is {self.surname} my age is {self.age}")
 
